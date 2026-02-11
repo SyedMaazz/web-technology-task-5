@@ -51,13 +51,11 @@ nav li a:hover {
 }
 
 .hero h1{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     margin-bottom: 25px;
 }
 
 .hero p {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
@@ -110,7 +108,7 @@ footer {
 }
 /* MENU SECTION */
 .menu-section {
-    background-color: #dcdcdc;
+    background-color: #ffffff;
     flex: 1;
     padding: 40px 0;
     text-align: center;
