@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 nav {
     background-color: #333;
     padding: 15px 0;
@@ -26,11 +25,23 @@ nav ul {
     gap: 30px;
 }
 
-nav a {
+nav li a {
+    display: inline-block;
+    padding: 6px 16px;          
     color: white;
     text-decoration: none;
     font-size: 18px;
+    border-radius: 4px;
+
+    transition: 0.3s ease;
 }
+
+/* Hover effect */
+nav li a:hover {
+    background-color: #111;
+
+}
+
 
 .hero {
     background-color: #f4f4f4;
@@ -62,3 +73,4 @@ footer {
     padding: 35px 0;
     font-size: 20px;
 }
+
